@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 28px;
+}
+
+.nav .active {
+  background-color: #f5f5f5;
+}
+
+.nav li a, .nav li a:hover {
+  text-decoration: none;
+  line-height: 32px;
+}
